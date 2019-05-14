@@ -1,0 +1,2 @@
+class QuoteForce < ApplicationRecord
+end
