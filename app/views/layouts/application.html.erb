@@ -10,6 +10,23 @@
   </head>
 
   <body>
-    <%= yield %>
+
+    <header class="row">
+      <div class="col-3">
+        LOGO
+      </div>
+      <div class="col-4">
+        Splurting out unsolicited advice about entrepeneurship since 2016
+      </div>
+      <div class="col-5">
+        <%= link_to 'contribute', '#' %>
+        <%= link_to 'About', '#' %>
+
+      </div>
+    </header>
+
+    <br class="clear" />
+
+  <%= yield %>
   </body>
 </html>
