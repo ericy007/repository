@@ -23,7 +23,7 @@
           to code
           </div>
       <% end %>
-      
+
       </div>
       <div class="col-4 slogan">
         Splurting out unsolicited advice about entrepeneurship since 2016
@@ -40,6 +40,11 @@
     <br class="clear" />
 
 <div class="container">
+  <% if flash[:error].present? %>
+    <div class="col-10 offset-1 alert alert-danger">
+        <%= flash[:error].html_safe %>
+    </div>
+  <% end %>
 
   <%= yield %>
     </div>
