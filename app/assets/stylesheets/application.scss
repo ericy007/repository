@@ -13,10 +13,13 @@
  *= require_tree .
  *= require_self
  */
+
 @import "bootstrap";
 .clear {
   clear: both;
 }
+
+
 .circle {
     font-weight: bold;
     font-style: italic;
