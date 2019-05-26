@@ -1,2 +1,0 @@
-class QuoteForce < ApplicationRecord
-end
